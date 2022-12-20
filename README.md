@@ -1,4 +1,4 @@
-#Consumer Group Offset Update Scripts
+# Consumer Group Offset Update Scripts
 ---
 
 `timestamp-offset-update.sh`
