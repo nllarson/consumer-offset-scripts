@@ -15,7 +15,7 @@ RECORD_FIELD=".ORDERTIME.long"
 
 usage()
 {
-    echo "Usage: reset.sh <consumer group> <topicA> <topicB>";
+    echo "Usage: timestamp-offset-update.sh <consumer group> <topicA> <topicB>";
     exit 1;
 }
 

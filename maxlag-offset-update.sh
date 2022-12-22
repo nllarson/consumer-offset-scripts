@@ -11,7 +11,7 @@ OFFSET_BACKOFF=100
 
 usage()
 {
-    echo "Usage: offsets.sh <consumer group> <topicA> <topicB>";
+    echo "Usage: maxlag-offset-update.sh <consumer group> <topicA> <topicB>";
     exit 1;
 }
 
