@@ -20,7 +20,10 @@ You will need to create a file `kafka.properties` that has the connectivity info
 In each script, you can update the `CONFLUENT_PATH` variable to point to you installment of the Confluent toolkit.
 
 If you do not have the Confluent platform, this can be downloaded here:
-`https://docs.confluent.io/platform/current/installation/installing_cp/zip-tar.html#install-cp-using-zip-and-tar-archives`
+https://docs.confluent.io/platform/current/installation/installing_cp/zip-tar.html#install-cp-using-zip-and-tar-archives
+
+You will also need `jq` on your machine to run `timestamp-offset-update`.  This is used to parse out the field that you are wanting.  It can be found here: https://stedolan.github.io/jq/
+
 
 ### Script Arguments
 Each script takes 3 arguments to execute.  The `consumer group`, `topicA`, and `topicB`.
